@@ -6,15 +6,15 @@ class Interval
     {
         int n = int.Parse(Console.ReadLine());
         int m = int.Parse(Console.ReadLine());
-        int result = 0;
+        int r = 0;
 
         for (int i = n + 1; i < m; i++)
         {
             if (i % 5 == 0)
             {
-                result++;
+                r++;
             }
         }
-        Console.WriteLine(result);
+        Console.WriteLine(r);
     }
 }
